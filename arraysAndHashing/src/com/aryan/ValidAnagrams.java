@@ -13,15 +13,6 @@ public class ValidAnagrams {
     System.out.println(result);
   }
 
-  static boolean isAnagram(String s, String t){
-    if(s.length() != t.length())
-      return false;
-
-
-
-    return true;
-  }
-
   static boolean isAnagramThroughSorting(String s, String t) {
     if(s.length() != t.length()){
       return false;
